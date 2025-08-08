@@ -26,4 +26,8 @@ router.get('/', (req, res) => {
   res.json({ name, age });
 });
 
+//router.get('/contatos', async (req, res) =>{
+  
+//})
+
 export default router;
